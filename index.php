@@ -182,19 +182,11 @@ arsort($RSS);
         $text_1 = (string)$item_1->summary;
 		$date_1 = date("Y/n/j H:i:s",strtotime($date_1));
 		$text_1 = (string)$item_1->summary;
-		$item_2  = $RSS->entry[2];
-        $title_2 = (string)$item_2->title;
-        $link_2  = (string)$item_2->link;
-        $date_2  = (string)$item_2->published;
-        $date_2 = date("Y/n/j H:i:s",strtotime($date_2));
-        $text_2 = (string)$item_2->summary;
-        $date_2 = date("Y/n/j H:i:s",strtotime($date_2));
-        $text_2 = (string)$item_2->summary;
 	?>
 		<div class="row">
 			<div class="col-8">
 				<div class="card border-info mb-3" style="width:100%">
-					<div class="card-header" align="center"><i class="fas fa-info"></i>&nbsp;お知らせ</div>
+					<div class="card-header" align="center"><i class="fas fa-info"></i><a href="https://blog.lucknetwork.jp">&nbsp;お知らせ</a></div>
 					<div class="card-body">
 						<span style="font-size:140%">
 							<?php echo $title_1?>&nbsp;</span>
@@ -202,14 +194,6 @@ arsort($RSS);
 						<hr>
 						<span>
 							<?php echo $text_1?>
-						</span>
-						<hr>
-						<span style="font-size:140%">
-							<?php echo $title_2?>&nbsp;</span>
-						<p style="font-size:90%;margin-top:-5px" align="right"><i class="far fa-clock"></i>&nbsp;<?php echo $date_2?></p>
-						<hr>
-						<span>
-							<?php echo $text_2?>
 						</span>
 					</div>
 				</div>
