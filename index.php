@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta content="Minecraftサーバー「Luck Network」のWebサイトです。" name="description">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" type="image/x-icon" href="https://gitcdn.xyz/repo/lucknet/cdn/master/ico/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="https://cdn.lucknetwork.jp/ico/favicon.ico">
 	<meta name="author" content="Luck Network" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@McLuckServer" />
