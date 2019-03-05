@@ -48,7 +48,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top topback" style="opacity:0.8">
-		<a class="navbar-brand" href="#"><img src="https://gitcdn.xyz/repo/lucknet/cdn/master/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Luck Network"></a>
+		<a class="navbar-brand" href="#"><img src="https://cdn.lucknetwork.jp/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Luck Network"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
