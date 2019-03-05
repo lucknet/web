@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta content="Minecraftサーバー「Luck Network」のWebサイトです。" name="description">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" type="image/x-icon" href="https://gitcdn.xyz/repo/lucknet/cdn/master/ico/favicon.ico">
 	<meta name="author" content="Luck Network" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@McLuckServer" />
@@ -43,28 +44,11 @@
 		height: 456px !important;
 	}
 </style>
-<link rel="apple-touch-icon" sizes="57x57" href="assets/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="assets/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="assets/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="assets/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-<link rel="manifest" href="assets/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="assets/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top topback" style="opacity:0.8">
-		<a class="navbar-brand" href="#"><img src="assets/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Luck Network"></a>
+		<a class="navbar-brand" href="#"><img src="https://gitcdn.xyz/repo/lucknet/cdn/master/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Luck Network"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -108,13 +92,13 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="assets/1.png" alt="First slide" style="overflow: hidden;width:100%;height:500px;position: relative;">
+				<img class="d-block w-100" src="https://raw.githubusercontent.com/lucknet/cdn/master/img/1.png" alt="First slide" style="overflow: hidden;width:100%;height:500px;position: relative;">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="assets/2.png" alt="Second slide" width=100% height=500px style="object-flit:cover;">
+				<img class="d-block w-100" src="https://raw.githubusercontent.com/lucknet/cdn/master/img/2.png" alt="Second slide" width=100% height=500px style="object-flit:cover;">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="assets/3.png" alt="Third slide" width=100% height=500px style="object-flit:cover;">
+				<img class="d-block w-100" src="https://raw.githubusercontent.com/lucknet/cdn/master/img/3.png" alt="Third slide" width=100% height=500px style="object-flit:cover;">
 			</div>
 			<div class="carousel-caption d-none d-md-block">
 				<h2>Luck Network</h2>

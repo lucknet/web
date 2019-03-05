@@ -14,11 +14,4 @@ do
     echo "Processing $f into ${f/.php/$html}..";
 done
 
-#Copy all assets
-for f in assets/*; 
-do
-    cat $f > "$DEST/$f";
-    echo "Processing $f file..";
-done
-
 echo "Process complete." ;
