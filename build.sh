@@ -17,7 +17,7 @@ done
 #Copy all assets
 for f in assets/*; 
 do
-    cat $f > "$DEST/assets/$f";
+    cat $f > "$DEST/$f";
     echo "Processing $f file..";
 done
 
