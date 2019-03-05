@@ -92,13 +92,13 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="https://raw.githubusercontent.com/lucknet/cdn/master/img/1.png" alt="First slide" style="overflow: hidden;width:100%;height:500px;position: relative;">
+				<img class="d-block w-100" src="https://cdn.lucknetwork.jp/img/1.png" alt="First slide" style="overflow: hidden;width:100%;height:500px;position: relative;">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="https://raw.githubusercontent.com/lucknet/cdn/master/img/2.png" alt="Second slide" width=100% height=500px style="object-flit:cover;">
+				<img class="d-block w-100" src="https://cdn.lucknetwork.jp/img/2.png" alt="Second slide" width=100% height=500px style="object-flit:cover;">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="https://raw.githubusercontent.com/lucknet/cdn/master/img/3.png" alt="Third slide" width=100% height=500px style="object-flit:cover;">
+				<img class="d-block w-100" src="https://cdn.lucknetwork.jp/img/3.png" alt="Third slide" width=100% height=500px style="object-flit:cover;">
 			</div>
 			<div class="carousel-caption d-none d-md-block">
 				<h2>Luck Network</h2>
