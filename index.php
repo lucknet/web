@@ -175,29 +175,54 @@
 $RSS = simplexml_load_file($url);
 arsort($RSS);
     if( $RSS->entry[1] ){
-        $site_name = (string)$RSS->channel->title;
-        $item  = $RSS->entry[1];
-        $title = (string)$item->title;
-        $link  = (string)$item->link;
-        $date  = (string)$item->published;
-        $date = date("Y/n/j H:i:s",strtotime($date));
-        $text = (string)$item->summary;
-    }elseif( $RSS->entry[0] ){
-        $site_name = (string)$RSS->channel->title;
-        $entry  = $RSS->entry[1];
-        $title = (string)$item->title;
-        $link  = (string)$item->link;
-        $date  = (string)$item->children('http://purl.org/dc/elements/1.1/')->date;
-        $date = date("Y/n/j H:i:s",strtotime($date));
-        $text = (string)$item->summary;
+        $site_name_1 = (string)$RSS->channel->title;
+        $item_1  = $RSS->entry[1];
+        $title_1 = (string)$item->title;
+        $link_1  = (string)$item->link;
+        $date_1  = (string)$item->published;
+        $date_1 = date("Y/n/j H:i:s",strtotime($date));
+        $text_1 = (string)$item->summary;
     }elseif( $RSS->entry[1] ){
-        $site_name = (string)$RSS->title;
-        $item  = $RSS->entry[0];
-        $title = (string)$item->title;
-        $link  = (string)$item->link->attributes()->href;
-        $date  = (string)$item->published;
-	$date = date("Y/n/j H:i:s",strtotime($date));
-	$text = (string)$item->summary;
+        $site_name_1 = (string)$RSS->channel->title;
+        $entry_1  = $RSS->entry[1];
+        $title_1 = (string)$item->title;
+        $link_1  = (string)$item->link;
+        $date_1  = (string)$item->children('http://purl.org/dc/elements/1.1/')->date_1;
+        $date_1 = date("Y/n/j H:i:s",strtotime($date));
+        $text_1 = (string)$item->summary;
+    }elseif( $RSS->entry[1] ){
+        $site_name_1 = (string)$RSS->title;
+        $item_1  = $RSS->entry[0];
+        $title_1 = (string)$item->title;
+        $link_1  = (string)$item->link->attributes()->href;
+        $date_1  = (string)$item->published;
+	$date_1 = date("Y/n/j H:i:s",strtotime($date));
+	$text_1 = (string)$item->summary;
+    }
+    if( $RSS->entry[2] ){
+        $site_name_2 = (string)$RSS->channel->title;
+        $item_2  = $RSS->entry[2];
+        $title_2 = (string)$item->title;
+        $link_2  = (string)$item->link;
+        $date_2  = (string)$item->published;
+        $date_2 = date("Y/n/j H:i:s",strtotime($date));
+        $text_2 = (string)$item->summary;
+    }elseif( $RSS->entry[2] ){
+        $site_name_2 = (string)$RSS->channel->title;
+        $entry_2  = $RSS->entry[1];
+        $title_2 = (string)$item->title;
+        $link_2  = (string)$item->link;
+        $date_2  = (string)$item->children('http://purl.org/dc/elements/1.1/')->date_2;
+        $date_2 = date("Y/n/j H:i:s",strtotime($date));
+        $text_2 = (string)$item->summary;
+    }elseif( $RSS->entry[2] ){
+        $site_name_2 = (string)$RSS->title;
+        $item_2  = $RSS->entry[0];
+        $title_2 = (string)$item->title;
+        $link_2  = (string)$item->link->attributes()->href;
+        $date_2  = (string)$item->published;
+	$date_2 = date("Y/n/j H:i:s",strtotime($date));
+	$text_2 = (string)$item->summary;
     }
 	?>
 		<div class="row">
@@ -206,11 +231,19 @@ arsort($RSS);
 					<div class="card-header" align="center"><i class="fas fa-info"></i>&nbsp;お知らせ</div>
 					<div class="card-body">
 						<span style="font-size:140%">
-							<?php echo $title?>&nbsp;</span>
-						<p style="font-size:90%;margin-top:-5px" align="right"><i class="far fa-clock"></i>&nbsp;<?php echo $date?></p>
+							<?php echo $title_1?>&nbsp;</span>
+						<p style="font-size:90%;margin-top:-5px" align="right"><i class="far fa-clock"></i>&nbsp;<?php echo $date_1?></p>
 						<hr>
 						<span>
-							<?php echo $text?>
+							<?php echo $text_1?>
+						</span>
+						<hr>
+						<span style="font-size:140%">
+							<?php echo $title_2?>&nbsp;</span>
+						<p style="font-size:90%;margin-top:-5px" align="right"><i class="far fa-clock"></i>&nbsp;<?php echo $date_2?></p>
+						<hr>
+						<span>
+							<?php echo $text_2?>
 						</span>
 					</div>
 				</div>
