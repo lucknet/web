@@ -170,27 +170,50 @@
   </ol>
 </nav>
 		<hr>
+<?php
+	$url = "https://blog.lucknetwork.jp/atom.xml";
+$RSS = simplexml_load_file($url);
+arsort($RSS);
+    if( $RSS->entry[1] ){
+        $site_name = (string)$RSS->channel->title;
+        $item  = $RSS->entry[1];
+        $title = (string)$item->title;
+        $link  = (string)$item->link;
+        $date  = (string)$item->published;
+        $date = date("Y/n/j H:i:s",strtotime($date));
+        $text = (string)$item->summary;
+    }elseif( $RSS->entry[0] ){
+        $site_name = (string)$RSS->channel->title;
+        $entry  = $RSS->entry[1];
+        $title = (string)$item->title;
+        $link  = (string)$item->link;
+        $date  = (string)$item->children('http://purl.org/dc/elements/1.1/')->date;
+        $date = date("Y/n/j H:i:s",strtotime($date));
+        $text = (string)$item->summary;
+    }elseif( $RSS->entry[1] ){
+        $site_name = (string)$RSS->title;
+        $item  = $RSS->entry[0];
+        $title = (string)$item->title;
+        $link  = (string)$item->link->attributes()->href;
+        $date  = (string)$item->published;
+	$date = date("Y/n/j H:i:s",strtotime($date));
+	$text = (string)$item->summary;
+    }
+	?>
 		<div class="row">
 			<div class="col-8">
 				<div class="card border-info mb-3" style="width:100%">
 					<div class="card-header" align="center"><i class="fas fa-info"></i>&nbsp;お知らせ</div>
 					<div class="card-body">
-						<span style="font-size:140%">ArenaPvPサーバーメンテナンスのお知らせ&nbsp;</span>
-						<p style="font-size:90%;margin-top:-5px" align="right"><i class="far fa-clock"></i>&nbsp;2019/02/25</p>
+						<span style="font-size:140%">
+							<?php echo $title?>&nbsp;</span>
+						<p style="font-size:90%;margin-top:-5px" align="right"><i class="far fa-clock"></i>&nbsp;<?php echo $date?></p>
 						<hr>
 						<span>
-							ArenaPvPサーバーが大型アップデート作業のため、<br>
-							数日間遊ぶことが出来なくなります。ご不便おかけしますがご協力お願いします。m(_ _)m<br>
-							なお、その他のサーバーではメンテナンス期間中も通常通りプレイすることができます。<br>
+							<?php echo $text?>
 						</span>
 					</div>
 				</div>
-				<div class="card border-warning mb-3" style="width:100%">
-					<div class="card-header" align="center"><i class="fas fa-server"></i>&nbsp;Japan Minecraft Servers</div>
-					<div class="card-body" align="center">
-						<a href="https://minecraft.jp/servers/lucknetwork.jp"><img src="https://minecraft.jp/servers/lucknetwork.jp/banner/5/560x95.png"/></a></div>
-					</div>
-
 					<iframe src="https://discordapp.com/widget?id=251841166494924811&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0"></iframe>
 				</div>
 				<div class="col-4">
