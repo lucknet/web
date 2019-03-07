@@ -103,6 +103,7 @@
 			<div class="carousel-caption d-none d-md-block">
 				<h2>Luck Network</h2>
 				<p style="font-size:140%">Japanese Minecraft Community and Servers</p>
+				<img src="https://cdn.lucknetwork.jp/img/kawaii_1.png" style="position:absolute;right:-20px;bottom:-50px;opacity:0.666;margin-right: -40px;margin-bottom: -100px;">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -113,6 +114,7 @@
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
+
 	</div>
 	<div class="container" style="margin-top:17px">
 		<div class="row">
