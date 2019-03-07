@@ -120,7 +120,7 @@
 		<div class="row">
 			<div class="card mb-3" style="max-width: 17rem;">
 				<div class="card-body" align="center">
-					<h5 class="card-title">KitPvP</h5>
+					<h5 class="card-title">FFAPvP</h5>
 					<h6 class="card-subtitle text-muted">オリジナル FFA サーバー！</h6>
 				</div>
 				<img style="height: 200px; width: 100%; display: block;" src="https://i.imgur.com/WoPJy9i.png">
