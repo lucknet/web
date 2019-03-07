@@ -189,7 +189,7 @@ arsort($RSS);
 					<div class="card">
 						<div class="card-body">
 							<object data="https://stats.lucknetwork.jp/top.php" height="80"></object>
-							サーバーアドレス: <code>lucknetwork.jp</code><br>
+							サーバーアドレス: <code>lucknetwork.jp</code> <button type="button" class="btn btn-outline-primary" id="cmd" data-toggle="tooltip" data-placement="top" data-delay='{ "show" : 0, "hide": 10 }' title="クリップボードへコピーしました" data-trigger="click" data-clipboard-text="lucknetwork.jp"><i class="far fa-copy"></i></button><br>
 							バージョン: 1.7.10 - 1.13.x
 						</div>
 					</div>
@@ -228,6 +228,26 @@ arsort($RSS);
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+<script>
+    var btn = document.getElementById('cmd');
+    var clipboard = new ClipboardJS(btn);
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+     $("[rel=tooltip]").tooltip().on("show.bs.tooltip", function() {
+    setTimeout(function () {
+      $(".tooltip").fadeOut('fast', function() {
+        $(this).remove();
+      });
+    }, 5000);
+  });
+    </script>
 	</body>
 	</html>
