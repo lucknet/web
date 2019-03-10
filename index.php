@@ -204,7 +204,7 @@ arsort($RSS);
 		<footer class="footer">
 			<address>
 			&copy; 2019 Luck Network. | <a href="https://wiki.lucknetwork.jp/terms">利用規約及びプライバシーポリシー</a><br>
-			Minecraft は <a href="https://mojang.com">Mojang AB</a> の登録商標です。私達は、Mojang AB と何の商業的な関係もありません。
+			Minecraft は <a href="https://mojang.com">Mojang AB</a> の登録商標です。本サーバーは Mojang社から承認されておらず、Mojang社とは関係ありません。
 		</address>
 			<div class="share">
 			 <div class="facebook">
