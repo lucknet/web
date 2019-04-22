@@ -190,7 +190,7 @@ arsort($RSS);
 						<div class="card-body">
 							<object data="https://stats.lucknetwork.jp/top.php" height="80"></object>
 							サーバーアドレス: <code>lucknetwork.jp</code> <button type="button" class="btn btn-outline-primary" id="cmd" data-toggle="tooltip" data-placement="top" data-delay='{ "show" : 0, "hide": 10 }' title="クリップボードへコピーしました" data-trigger="click" data-clipboard-text="lucknetwork.jp"><i class="far fa-copy"></i></button><br>
-							バージョン: 1.7.10 - 1.13.x
+							バージョン: 1.7.x - 1.13.x
 						</div>
 					</div>
 					<div class="card border-primary mb-3" style="max-width: 100%;margin-top: 5px">
