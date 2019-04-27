@@ -160,7 +160,7 @@
 	$url = "https://blog.lucknetwork.jp/atom.xml";
 $RSS = simplexml_load_file($url);
 arsort($RSS);
-        $item_1  = $RSS->entry[1];
+        $item_1  = $RSS->entry[0];
         $title_1 = (string)$item_1->title;
         $link_1  = (string)$item_1->link;
         $date_1  = (string)$item_1->published;
