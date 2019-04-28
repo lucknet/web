@@ -118,7 +118,7 @@
 		</a>
 </div>
 	</div>
-	<div class="container" style="margin-top:80px">
+	<div class="container d-none d-md-block" style="margin-top:80px">
 		<div class="row">
 			<div class="card mb-3" style="max-width: 17rem;">
 				<div class="card-body" align="center">
