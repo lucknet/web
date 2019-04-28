@@ -55,7 +55,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="https://lucknetwork.jp/"><i class="fas fa-home"></i>&nbsp;ホーム <span class="sr-only">(current)</span></a>
 				</li>
