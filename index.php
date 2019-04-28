@@ -217,7 +217,7 @@ arsort($RSS);
 						</span>
 					</div>
 				</div>
-					<iframe src="https://discordapp.com/widget?id=251841166494924811&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0"></iframe>
+					<iframe src="https://discordapp.com/widget?id=251841166494924811&theme=dark" width="100%" height="574px" allowtransparency="true" frameborder="0"></iframe>
 				</div>
 				<div class="col-lg-4">
 					<div class="card">
