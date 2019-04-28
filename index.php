@@ -150,7 +150,7 @@
 		</a>
 </div>
 	</div>
-	<div class="container d-none d-lg-block">
+	<div class="container d-none d-lg-block" style="margin-top: 5px">
 		<div class="row">
 			<div class="card mb-3" style="max-width: 17rem;">
 				<div class="card-body" align="center">
