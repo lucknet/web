@@ -40,7 +40,7 @@
   width: 74px;
   overflow: hidden;
 }
-
+.iconbig{font-size: 200%}
 	.twitter-timeline {
 		height: 456px !important;
 	}
@@ -48,13 +48,14 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 </head>
 <body>
+<div class="d-none d-lg-block">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top topback" style="opacity:0.8">
 		<a class="navbar-brand" href="#"><img src="https://cdn.lucknetwork.jp/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Luck Network"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-			<ul class="navbar-nav ml-auto">
+			<ul class="navbar-nav">
 				<li class="nav-item active">
 					<a class="nav-link" href="https://lucknetwork.jp/"><i class="fas fa-home"></i>&nbsp;ホーム <span class="sr-only">(current)</span></a>
 				</li>
@@ -82,10 +83,41 @@
 				<li class="nav-item">
 				<a class="nav-link" href="https://match.lucknetwork.jp"><i class="fas fa-chess-knight"></i>&nbsp;試合記録</a>
 			</li>
-			</ul>
-		</div>
+</ul>
 	</nav>
-	<div class="d-none d-md-block">
+</div>
+<div class="d-block d-lg-none">
+	<nav class="navbar navbar-expand navbar-dark bg-dark fixed-top topback" style="opacity:0.8">
+		<a class="navbar-brand" href="#"><img src="https://cdn.lucknetwork.jp/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Luck Network"></a>
+		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+			<ul class="navbar-nav ml-auto iconbig">
+				<li class="nav-item">
+					<a class="nav-link" href="https://wiki.lucknetwork.jp"><i class="fas fa-book"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://forum.lucknetwork.jp"><i class="fas fa-comments"></i></a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://lucknetwork.buycraft.net/"><i class="fas fa-cart-plus"></i></a>
+			  </li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://stats.lucknetwork.jp"><i class="fas fa-check"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://rankings.lucknetwork.jp"><i class="fas fa-trophy"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://punish.lucknetwork.jp"><i class="fas fa-ban"></i></a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://match.lucknetwork.jp"><i class="fas fa-chess-knight"></i></a>
+			</li>
+</ul>
+	</nav>
+</div>
+
+
+	<div class="d-none d-lg-block">
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -118,7 +150,7 @@
 		</a>
 </div>
 	</div>
-	<div class="container d-none d-md-block">
+	<div class="container d-none d-lg-block">
 		<div class="row">
 			<div class="card mb-3" style="max-width: 17rem;">
 				<div class="card-body" align="center">
@@ -150,7 +182,7 @@
 			</div>
 		</div>
 	</div>
-<div class="d-block d-md-none" style="margin-top: 75px"></div>
+<div class="d-block d-lg-none" style="margin-top: 80px"></div>
 	<div class="container" style="width:100%">
 				<nav aria-label="パンくずリスト">
   <ol class="breadcrumb">
@@ -172,7 +204,7 @@ arsort($RSS);
 		$text_1 = (string)$item_1->summary;
 	?>
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-lg-8">
 				<div class="card border-info mb-3" style="width:100%">
 					<div class="card-header" align="center"><i class="fas fa-info"></i><a href="https://blog.lucknetwork.jp">&nbsp;お知らせ</a></div>
 					<div class="card-body">
@@ -187,7 +219,7 @@ arsort($RSS);
 				</div>
 					<iframe src="https://discordapp.com/widget?id=251841166494924811&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0"></iframe>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4">
 					<div class="card">
 						<div class="card-body">
 							<object data="https://stats.lucknetwork.jp/top.php" height="80"></object>
@@ -227,9 +259,9 @@ arsort($RSS);
   js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
 <script>
     var btn = document.getElementById('cmd');
