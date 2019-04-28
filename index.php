@@ -40,6 +40,7 @@
   width: 74px;
   overflow: hidden;
 }
+
 	.twitter-timeline {
 		height: 456px !important;
 	}
@@ -84,6 +85,7 @@
 			</ul>
 		</div>
 	</nav>
+	<div class="d-none d-md-block">
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -114,10 +116,10 @@
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
-
+</div>
 	</div>
-	<div class="container" style="margin-top:17px">
-		<div class="row">
+	<div class="container" style="margin-top:80px">
+		<div class="row d-none d-md-block">
 			<div class="card mb-3" style="max-width: 17rem;">
 				<div class="card-body" align="center">
 					<h5 class="card-title">FFAPvP</h5>
@@ -149,7 +151,7 @@
 		</div>
 	</div>
 
-	<div class="container" style="margin-top:5px">
+	<div class="container" style="margin-top:5px width:100%">
 				<nav aria-label="パンくずリスト">
   <ol class="breadcrumb">
   	<li class="breadcrumb-item active"><i class="fas fa-home"></i> lucknetwork.jp</li>
@@ -170,7 +172,7 @@ arsort($RSS);
 		$text_1 = (string)$item_1->summary;
 	?>
 		<div class="row">
-			<div class="col-8">
+			<div class="col-md-8">
 				<div class="card border-info mb-3" style="width:100%">
 					<div class="card-header" align="center"><i class="fas fa-info"></i><a href="https://blog.lucknetwork.jp">&nbsp;お知らせ</a></div>
 					<div class="card-body">
@@ -185,12 +187,12 @@ arsort($RSS);
 				</div>
 					<iframe src="https://discordapp.com/widget?id=251841166494924811&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0"></iframe>
 				</div>
-				<div class="col-4">
+				<div class="col-md-4">
 					<div class="card">
 						<div class="card-body">
 							<object data="https://stats.lucknetwork.jp/top.php" height="80"></object>
-							サーバーアドレス: <code>lucknetwork.jp</code> <button type="button" class="btn btn-outline-primary" id="cmd" data-toggle="tooltip" data-placement="top" data-delay='{ "show" : 0, "hide": 10 }' title="クリップボードへコピーしました" data-trigger="click" data-clipboard-text="lucknetwork.jp"><i class="far fa-copy"></i></button><br>
-							バージョン: 1.7.x - 1.13.x
+							<p>サーバーアドレス: <code>lucknetwork.jp</code> <button type="button" class="btn btn-outline-primary" id="cmd" data-toggle="tooltip" data-placement="top" data-delay='{ "show" : 0, "hide": 10 }' title="クリップボードへコピーしました" data-trigger="click" data-clipboard-text="lucknetwork.jp"><i class="far fa-copy"></i></button><br>
+							バージョン: 1.7.x - 1.13.x</p>
 						</div>
 					</div>
 					<div class="card border-primary mb-3" style="max-width: 100%;margin-top: 5px">
