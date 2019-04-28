@@ -118,7 +118,7 @@
 		</a>
 </div>
 	</div>
-	<div class="container d-none d-md-block" style="margin-top:80px">
+	<div class="container d-none d-md-block">
 		<div class="row">
 			<div class="card mb-3" style="max-width: 17rem;">
 				<div class="card-body" align="center">
@@ -150,8 +150,8 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="container" style="margin-top:5px width:100%">
+<div class="d-block d-md-none" style="margin-top: 75px"></div>
+	<div class="container" style="width:100%">
 				<nav aria-label="パンくずリスト">
   <ol class="breadcrumb">
   	<li class="breadcrumb-item active"><i class="fas fa-home"></i> lucknetwork.jp</li>
