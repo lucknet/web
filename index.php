@@ -3,14 +3,14 @@
 <head>
 	<title>ホーム | Luck Network</title>
 	<meta charset="utf-8">
-	<meta content="Minecraftサーバー「Luck Network」のWebサイトです。" name="description">
+	<meta content="Luck Network - lucknetwork.jp" name="description">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" type="image/x-icon" href="https://cdn.lucknetwork.jp/ico/favicon.ico">
 	<meta name="author" content="Luck Network" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@McLuckServer" />
 	<meta name="og:type" content="website" />
-	<meta name="og:title" content="Minecraftサーバー「Luck Network」のWebサイトです。" />
+	<meta name="og:title" content="Luck Network - lucknetwork.jp" />
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/lumen/bootstrap.min.css" />
 	<meta name="og:description" content="Luck Network is the Minecraft multiplay server that has many great feature." />
 	<meta name="og:url" content="https://lucknetwork.jp/" />
