@@ -218,6 +218,8 @@ arsort($RSS);
 					</div>
 				</div>
 					<iframe src="https://discordapp.com/widget?id=251841166494924811&theme=dark" width="100%" height="574px" allowtransparency="true" frameborder="0"></iframe>
+						<div class="d-none d-lg-block" style="margin-top: 5px;margin-bottom:5px">
+						<iframe style="height:90px;width:100%;border:none;display:block;margin:auto" src="https://ja.namemc.com/server/lucknetwork.jp/embed"></iframe></div>
 				</div>
 				<div class="col-lg-4">
 					<div class="card">
