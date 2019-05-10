@@ -63,9 +63,6 @@
 					<a class="nav-link" href="https://wiki.lucknetwork.jp"><i class="fas fa-book"></i>&nbsp;Wiki</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="https://forum.lucknetwork.jp"><i class="fas fa-comments"></i>&nbsp;フォーラム</a>
-				</li>
-				<li class="nav-item">
 				<a class="nav-link" href="https://lucknetwork.buycraft.net/"><i class="fas fa-cart-plus"></i>&nbsp;ストア</a>
 			  </li>
 				<li class="nav-item">
@@ -93,9 +90,6 @@
 			<ul class="navbar-nav ml-auto iconbig">
 				<li class="nav-item">
 					<a class="nav-link" href="https://wiki.lucknetwork.jp"><i class="fas fa-book"></i></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://forum.lucknetwork.jp"><i class="fas fa-comments"></i></a>
 				</li>
 				<li class="nav-item">
 				<a class="nav-link" href="https://lucknetwork.buycraft.net/"><i class="fas fa-cart-plus"></i></a>
