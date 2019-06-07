@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       - image: circleci/node:8
-      - image: circleci/php:latest
+      - image: circleci/php:7.3.5-cli
     working_directory: ~/repo
 
     steps:
