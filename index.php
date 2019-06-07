@@ -1,6 +1,3 @@
-<?php
-ob_start();
-?>
 <!doctype html>
 <html lang="ja">
 <head>
@@ -291,7 +288,3 @@ arsort($RSS);
     </script>
 	</body>
 	</html>
-	<?php
-file_put_contents( 'public_html/index.html', ob_get_contents() );
-ob_end_clean();
-?>
