@@ -1,4 +1,4 @@
-<?php error_reporting(E_ERROR | E_PARSE); ?>
+<?php error_reporting(0); ?>
 <!doctype html>
 <html lang="ja">
 <head>
