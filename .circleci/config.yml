@@ -12,7 +12,9 @@ jobs:
       - checkout
       - run:
           name: 'Generate index.html'
-          command: php works/php2static.php public/
+          command: |
+          cd works/
+          php php2static.php ../public/
       - persist_to_workspace:
           root: /tmp/web
           paths: 
