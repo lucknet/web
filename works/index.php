@@ -191,17 +191,31 @@
   </ol>
 </nav>
 		<hr>
+<?php
+	$url = "https://blog.lucknetwork.jp/atom.xml";
+$RSS = simplexml_load_file($url);
+arsort($RSS);
+        $item_1  = $RSS->entry[0];
+        $title_1 = (string)$item_1->title;
+        $link_1  = (string)$item_1->link;
+        $date_1  = (string)$item_1->published;
+        $date_1 = date("Y/n/j H:i:s",strtotime($date_1));
+        $text_1 = (string)$item_1->summary;
+		$date_1 = date("Y/n/j H:i:s",strtotime($date_1));
+		$text_1 = (string)$item_1->summary;
+	?>
 		<div class="row">
 			<div class="col-lg-8">
 				<div class="card border-info mb-3" style="width:100%">
 					<div class="card-header" align="center"><i class="fas fa-info"></i><a href="https://blog.lucknetwork.jp">&nbsp;お知らせ</a></div>
 					<div class="card-body">
 						<span style="font-size:140%">
-							&nbsp;</span>
-						<p style="font-size:90%;margin-top:-5px" align="right"><i class="far fa-clock"></i>&nbsp;1970/1/1 00:00:00</p>
+							<?php echo $title_1?>&nbsp;</span>
+						<p style="font-size:90%;margin-top:-5px" align="right"><i class="far fa-clock"></i>&nbsp;<?php echo $date_1?></p>
 						<hr>
 						<span>
-													</span>
+							<?php echo $text_1?>
+						</span>
 					</div>
 				</div>
 					<iframe src="https://discordapp.com/widget?id=251841166494924811&theme=dark" width="100%" height="574px" allowtransparency="true" frameborder="0"></iframe>
@@ -274,4 +288,3 @@
     </script>
 	</body>
 	</html>
-	
