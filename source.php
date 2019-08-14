@@ -16,49 +16,21 @@
 	<meta name="og:description" content="Luck Network is the Minecraft multiplay server that has many great feature." />
 	<meta name="og:url" content="https://lucknetwork.jp/" />
 	<meta name="referrer" content="origin" />
-	<link href="//fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
-	<style type="text/css" media="screen">
-	body{ font-family: "M PLUS Rounded 1c"; }
-	.footer {
-		bottom: 0;
-		width: 100%;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		background-color: #313131;
-		font-size: 80%;
-		width: 100%;
-		text-align: center;
-	}
-	footer address{
-		color: #fff;
-		letter-spacing: 1.2px;
-	}
-	.share .twitter, .share .facebook, .share .pocket, .share .hatena {
-  display: inline-block;
-  vertical-align: top;
-}
-.share .facebook {
-  width: 74px;
-  overflow: hidden;
-}
-.iconbig{font-size: 200%}
-	.twitter-timeline {
-		height: 456px !important;
-	}
-</style>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-9751298951596878",
-    enable_page_level_ads: true
-  });
-</script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Noto+Sans+JP" rel="stylesheet">
+	<style>
+	body{font-family:'Roboto Mono',"Noto Sans JP"}
+	.footer {padding-top:10px;background-color:#313131;text-align:center}
+	footer address{color:#fff}
+	.twitter{display: inline-block;vertical-align: top}
+	.iconbig{font-size: 200%}
+	.twitter-timeline{height:55em!important}
+	p{margin:0}
+	</style>
 </head>
 <body>
 <div class="d-none d-lg-block">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top topback" style="opacity:0.8">
-		<a class="navbar-brand" href="#"><img src="https://cdn.lucknetwork.jp/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Luck Network"></a>
+		<a class="navbar-brand" href="#"><img src="https://cdn.lucknetwork.jp/img/logo.webp" width="30" height="30" class="d-inline-block align-top" alt="Luck Network"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -115,11 +87,9 @@
 				<a class="nav-link" href="https://match.lucknetwork.jp"><i class="fas fa-chess-knight"></i></a>
 			</li>
 </ul>
-	</nav>
+</nav>
 </div>
-
-
-	<div class="d-none d-lg-block">
+<div class="d-none d-lg-block">
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -128,18 +98,18 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="https://cdn.lucknetwork.jp/img/1.png" alt="First slide" style="overflow: hidden;width:100%;height:500px;position: relative;">
+				<img class="d-block w-100" src="https://cdn.lucknetwork.jp/img/1.webp" alt="First slide" style="overflow: hidden;width:100%;height:500px;position: relative;">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="https://cdn.lucknetwork.jp/img/2.png" alt="Second slide" width=100% height=500px style="object-flit:cover;">
+				<img class="d-block w-100" src="https://cdn.lucknetwork.jp/img/2.webp" alt="Second slide" width=100% height=500px style="object-flit:cover;">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="https://cdn.lucknetwork.jp/img/3.png" alt="Third slide" width=100% height=500px style="object-flit:cover;">
+				<img class="d-block w-100" src="https://cdn.lucknetwork.jp/img/3.webp" alt="Third slide" width=100% height=500px style="object-flit:cover;">
 			</div>
 			<div class="carousel-caption d-none d-md-block">
 				<h2>Luck Network</h2>
-				<p style="font-size:140%">Japanese Minecraft Community and Servers</p>
-				<img src="https://cdn.lucknetwork.jp/img/kawaii_1.png" style="position:absolute;right:-20px;bottom:-50px;opacity:0.666;margin-right: -40px;margin-bottom: -100px;">
+				<p style="font-size:140%;text-align:center">Japanese Minecraft Community and Servers</p>
+				<img src="https://cdn.lucknetwork.jp/img/kawaii_1.webp" style="position:absolute;right:-20px;bottom:-50px;opacity:0.666;margin-right: -40px;margin-bottom: -100px;">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -152,40 +122,40 @@
 		</a>
 </div>
 	</div>
-	<div class="container d-none d-lg-block" style="margin-top: 5px">
+	<div class="container" style="width:100%">
+	<div class="container d-none d-lg-block" style="margin-top: 5px;float: left;position:relative;left:1.5%">
 		<div class="row">
 			<div class="card mb-3" style="max-width: 17rem;">
-				<div class="card-body" align="center">
+				<div class="card-body">
 					<h5 class="card-title">FFAPvP</h5>
 					<h6 class="card-subtitle text-muted">オリジナル FFA サーバー！</h6>
 				</div>
 				<img style="height: 200px; width: 100%; display: block;" src="https://i.imgur.com/WoPJy9i.png">
 			</div>
 			<div class="card mb-3" style="max-width: 17rem;margin-left:17px">
-				<div class="card-body" align="center">
+				<div class="card-body">
 					<h5 class="card-title">ArenaPvP</h5>
 					<h6 class="card-subtitle text-muted">多彩なキットで楽しもう！<br>（ボット戦もあるよ）</h6>
 				</div>
 				<img style="height: 200px; width: 100%; display: block;" src="https://i.imgur.com/aJ3rVSh.png">
 			</div>
 			<div class="card mb-3" style="max-width: 17rem;margin-left:17px">
-				<div class="card-body" align="center">
+				<div class="card-body">
 					<h5 class="card-title">バニラ</h5>
 					<h6 class="card-subtitle text-muted">(ほぼ)常に最新バージョンです。<br>新要素を自由に遊び尽くそう！</h6>
 				</div>
 				<img style="height: 200px; width: 100%; display: block;" src="https://i.imgur.com/38J93uU.jpg">
 			</div>
 			<div class="card mb-3" style="max-width: 17rem;margin-left:17px">
-				<div class="card-body" align="center">
-					<h5 class="card-title">新ゲームモード、来年登場！</h5>
+				<div class="card-body">
+					<h5 class="card-title">新ゲームモード！</h5>
 					<h6 class="card-subtitle text-muted">大型アップデートを予定しています。</h6>
 				</div>
-				<img style="height: 200px; width: 100%; display: block;" src="https://via.placeholder.com/1920x1080.png?text=Coming soon...">
+				<img style="height: 200px; width: 100%; display: block;" src="https://via.placeholder.com/640x480.png?text=Coming soon...">
 			</div>
 		</div>
 	</div>
-<div class="d-block d-lg-none" style="margin-top: 80px"></div>
-	<div class="container" style="width:100%">
+
 				<nav aria-label="パンくずリスト">
   <ol class="breadcrumb">
   	<li class="breadcrumb-item active"><i class="fas fa-home"></i> lucknetwork.jp</li>
@@ -220,15 +190,15 @@ arsort($RSS);
 					</div>
 				</div>
 					<iframe src="https://discordapp.com/widget?id=251841166494924811&theme=dark" width="100%" height="574px" allowtransparency="true" frameborder="0"></iframe>
-						<div class="d-none d-lg-block" style="margin-top: 5px;margin-bottom:5px">
-						<iframe style="height:90px;width:100%;border:none;display:block;margin:auto" src="https://ja.namemc.com/server/lucknetwork.jp/embed"></iframe></div>
+					<div class="d-none d-lg-block" style="margin-top: 5px;margin-bottom:5px">
+					<iframe style="height:90px;width:100%;border:none;display:block;margin:auto" src="https://ja.namemc.com/server/lucknetwork.jp/embed"></iframe></div>
 				</div>
 				<div class="col-lg-4">
 					<div class="card">
 						<div class="card-body">
-							<object data="https://stats.lucknetwork.jp/top.php" height="80"></object>
-							<p>サーバーアドレス: <code>lucknetwork.jp</code> <button type="button" class="btn btn-outline-primary" id="cmd" data-toggle="tooltip" data-placement="top" data-delay='{ "show" : 0, "hide": 10 }' title="クリップボードへコピーしました" data-trigger="click" data-clipboard-text="lucknetwork.jp"><i class="far fa-copy"></i></button><br>
-							バージョン: 1.7.x - 1.14.x</p>
+							<object data="https://stats.lucknetwork.jp/top.php" height="40"></object>
+							<p>サーバーアドレス: <code class="ip">lucknetwork.jp</code></p>
+							<p>バージョン: 1.7.x - 1.14.x</p>
 						</div>
 					</div>
 					<div class="card border-primary mb-3" style="max-width: 100%;margin-top: 5px">
@@ -240,52 +210,13 @@ arsort($RSS);
 			</div>
 		</div>
 		<footer class="footer">
-			<address>
-			&copy; 2019 Luck Network. | <a href="https://wiki.lucknetwork.jp/terms">利用規約及びプライバシーポリシー</a><br>
-			「Minecraft」は <a href="https://mojang.com">Mojang Synergies AB</a> の商標です。<br>本サーバーは Minecraft 公式製品 ではありません。Mojang から承認されておらず、Mojang とは関係ありません。
+		<address>
+		<p>&copy; 2019 Luck Network. | <a href="https://wiki.lucknetwork.jp/terms">利用規約及びプライバシーポリシー</a></p>
+		「Minecraft」は <a href="https://mojang.com">Mojang Synergies AB</a> の商標です。<br>本サーバーは Minecraft 公式製品 ではありません。Mojang から承認されておらず、Mojang とは関係ありません。
 		</address>
-			<div class="share">
-			 <div class="facebook">
-			<div class="fb-share-button" data-href="https://lucknetwork.jp" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flucknetwork.jp%2F&amp;src=sdkpreparse"class="fb-xfbml-parse-ignore">シェア</a></div></div>
-			 <div class="twitter">
-			<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-url="https://lucknetwork.jp" data-via="McLuckServer" data-lang="ja" data-dnt="true" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		</div>
-<div class="hatena">
-<a href="http://b.hatena.ne.jp/entry/s/lucknetwork.jp" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" data-hatena-bookmark-height="28" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-</div>
-		</div>
-		</footer>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
-<script>
-    var btn = document.getElementById('cmd');
-    var clipboard = new ClipboardJS(btn);
-    clipboard.on('success', function(e) {
-        console.log(e);
-    });
-    clipboard.on('error', function(e) {
-        console.log(e);
-    });
-    $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-});
-     $("[rel=tooltip]").tooltip().on("show.bs.tooltip", function() {
-    setTimeout(function () {
-      $(".tooltip").fadeOut('fast', function() {
-        $(this).remove();
-      });
-    }, 5000);
-  });
-    </script>
+		<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-url="https://lucknetwork.jp" data-via="McLuckServer" data-lang="ja" data-dnt="true" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.26/bootstrap-native-v4.min.js"></script>
+		<script async src="https://kit.fontawesome.com/a4e6fa9fb0.js"></script>
 	</body>
 	</html>
