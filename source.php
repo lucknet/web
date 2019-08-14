@@ -214,9 +214,9 @@ arsort($RSS);
 		<p>&copy; 2019 Luck Network. | <a href="https://wiki.lucknetwork.jp/terms">利用規約及びプライバシーポリシー</a></p>
 		「Minecraft」は <a href="https://mojang.com">Mojang Synergies AB</a> の商標です。本サーバーは Minecraft 公式製品 ではありません。Mojang から承認されておらず、Mojang とは関係ありません。
 		</address>
-		</footer>
 		<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-url="https://lucknetwork.jp" data-via="McLuckServer" data-lang="ja" data-dnt="true" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.26/bootstrap-native-v4.min.js"></script>
 		<script async src="https://kit.fontawesome.com/a4e6fa9fb0.js"></script>
 	</body>
