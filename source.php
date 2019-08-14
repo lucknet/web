@@ -13,7 +13,7 @@
 	<meta name="og:type" content="website" />
 	<meta name="og:title" content="Luck Network - lucknetwork.jp" />
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/lumen/bootstrap.min.css" />
-	<meta name="og:description" content="Luck Network is the Minecraft multiplay server that has many great feature." />
+	<meta name="og:description" content="Luck Network is one of the Japanese Minecraft multiplayer with lots of great feature." />
 	<meta name="og:url" content="https://lucknetwork.jp/" />
 	<meta name="referrer" content="origin" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Noto+Sans+JP" rel="stylesheet">
@@ -212,8 +212,9 @@ arsort($RSS);
 		<footer class="footer">
 		<address>
 		<p>&copy; 2019 Luck Network. | <a href="https://wiki.lucknetwork.jp/terms">利用規約及びプライバシーポリシー</a></p>
-		「Minecraft」は <a href="https://mojang.com">Mojang Synergies AB</a> の商標です。<br>本サーバーは Minecraft 公式製品 ではありません。Mojang から承認されておらず、Mojang とは関係ありません。
+		「Minecraft」は <a href="https://mojang.com">Mojang Synergies AB</a> の商標です。本サーバーは Minecraft 公式製品 ではありません。Mojang から承認されておらず、Mojang とは関係ありません。
 		</address>
+		</footer>
 		<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-url="https://lucknetwork.jp" data-via="McLuckServer" data-lang="ja" data-dnt="true" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.26/bootstrap-native-v4.min.js"></script>
