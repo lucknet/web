@@ -196,7 +196,7 @@ arsort($RSS);
 				<div class="col-lg-4">
 					<div class="card">
 						<div class="card-body">
-							<object data="https://stats.lucknetwork.jp/top.php" height="40"></object>
+							<object data="https://stats.lucknetwork.jp/top.php" frameborder="0" height="75"></object>
 							<p>サーバーアドレス: <code class="ip">lucknetwork.jp</code></p>
 							<p>バージョン: 1.7.x - 1.14.x</p>
 						</div>
